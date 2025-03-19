@@ -57,7 +57,7 @@
         "path": "/etc/kubernetes/kubelet.conf.d/001-kubelet.conf",
         "contents": {
           "compression": "",
-          "source": "data:,apiVersion%3A%20kubelet.config.k8s.io%2Fv1beta1%0Akind%3A%20KubeletConfiguration%0AshutdownGracePeriod%3A%20%2245%22%0AshutdownGracePeriodCriticalPods%3A%20%2215%22%0A"
+          "source": "data:,apiVersion%3A%20kubelet.config.k8s.io%2Fv1beta1%0Akind%3A%20KubeletConfiguration%0AshutdownGracePeriod%3A%20%2245s%22%0AshutdownGracePeriodCriticalPods%3A%20%2215s%22%0A"
         },
         "mode": 420
       }
